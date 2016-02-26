@@ -19,11 +19,11 @@ The `jup` (**J**ava **Up**date) project aims to provide an easy, efficient and c
 ## Related Work
 * https://sparkle-project.org/
 * https://theupdateframework.github.io/
+* http://jupidator.panayotis.com/
+* https://sourceforge.net/projects/juf/
 * https://github.com/edvin/fxlauncher
 * https://github.com/threerings/getdown
 * https://github.com/vinumeris/updatefx
-* https://sourceforge.net/projects/juf/
-* https://sourceforge.net/projects/jupidator/
 * https://github.com/UrsKR/updates-r-simple
 * http://stackoverflow.com/questions/34923513/auto-update-frameworks-for-java-applications
 * http://www.oracle.com/technetwork/java/javase/javawebstart/
