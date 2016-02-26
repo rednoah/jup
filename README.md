@@ -13,6 +13,7 @@ The `jup` (**J**ava **Up**date) project aims to provide an easy, efficient and c
 * Keep local modification of original file has not been changed for this update
 * Send machine identifier with HTTP requests to estimate number of active users
 * Post-update hook that can call an `*.msi` that was part of the update, so that we can update the updater itself, Software Panel information, Window Shortcuts, etc
+* Same rationale as [Getdown](https://github.com/threerings/getdown/wiki/Rationale)
 
 
 ## Related Work
