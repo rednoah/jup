@@ -18,7 +18,14 @@ The `jup` (**J**ava **Up**date) project aims to provide an easy, efficient and c
 * Same rationale as [Getdown](https://github.com/threerings/getdown/wiki/Rationale)
 
 
-## Related Work
+## Related Papers
+* [Survivable Key Compromise in Software Update Systems](https://isis.poly.edu/~jcappos/papers/samuel_tuf_ccs_2010.pdf)
+* [Package Management Security](https://isis.poly.edu/~jcappos/papers/cappos_pmsec_tr08-02.pdf)
+* [A Look In the Mirror: Attacks on Package Managers](https://isis.poly.edu/~jcappos/papers/cappos_mirror_ccs_08.pdf)
+* [Diplomat: Using Delegations to Protect Community Repositories](https://isis.poly.edu/~jcappos/papers/kuppusamy_nsdi_16.pdf)
+
+
+## Related Projects
 * https://sparkle-project.org/
 * https://theupdateframework.github.io/
 * http://jupidator.panayotis.com/
