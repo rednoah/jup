@@ -13,6 +13,7 @@ The `jup` (**J**ava **Up**date) project aims to provide an easy, efficient and c
 * Execute command via `MSI`? Can we build an `MSI` package that will download the latest version via `jup` on install?
 * Sign XML update descriptor, maybe via an additional XML header attribute? e.g. `<?xml version="1.0" encoding="UTF-8" signature="A1B2C3D4F5" ?>` What about multiple signatures? Use separate `update.xml.signature` files? (side effect: if `update.xml` is large, we only need to check for changes in the small `*.signature` file to know if there's any updates)
 * Should we use [XML Digital Signatures](https://docs.oracle.com/javase/6/docs/technotes/guides/security/xmldsig/XMLDigitalSignature.html)? Java has an API, but it it seems overly complex (to account for use cases we don't care about).
+* Do target files need to be signed? If only the `update.xml` file is signed and contains `SHA-256` checksums for all target files. Can we trust target files just by checking `SHA-256` file integrity?
 * Keep local modification of original file has not been changed for this update
 * Send machine identifier with HTTP requests to estimate number of active users
 * Post-update hook that can call an `*.msi` that was part of the update, so that we can update the updater itself, Software Panel information, Window Shortcuts, etc
