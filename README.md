@@ -11,7 +11,8 @@ The `jup` (**J**ava **Up**date) project aims to provide an easy, efficient and c
 * Separate jup.exe that requires [elevated permissions](http://stackoverflow.com/questions/2818179/how-to-force-my-net-app-to-run-as-administrator-on-windows-7) and can modify `Program Files` (Windows only)
 * How can we update Mac app bundles installed in `~/Applications`? How do we get write access? [AuthorizationExecuteWithPrivileges](http://stackoverflow.com/questions/32488665/replacement-for-authorizationexecutewithprivileges-temporary-root-permission-fo)?
 * Execute command via `MSI`? Can we build an `MSI` package that will download the latest version via `jup` on install?
-* Sign XML update descriptor, maybe via an additional XML header attribute? e.g. `<?xml version="1.0" encoding="UTF-8" signature="A1B2C3D4F5" ?>`
+* Sign XML update descriptor, maybe via an additional XML header attribute? e.g. `<?xml version="1.0" encoding="UTF-8" signature="A1B2C3D4F5" ?>` What about multiple signatures? Use separate `update.xml.signature` files? (side effect: if `update.xml` is large, we only need to check for changes in the small `*.signature` file to know if there's any updates)
+* Should we use [XML Digital Signatures](https://docs.oracle.com/javase/6/docs/technotes/guides/security/xmldsig/XMLDigitalSignature.html)? Java has an API, but it it seems overly complex (to account for use cases we don't care about).
 * Keep local modification of original file has not been changed for this update
 * Send machine identifier with HTTP requests to estimate number of active users
 * Post-update hook that can call an `*.msi` that was part of the update, so that we can update the updater itself, Software Panel information, Window Shortcuts, etc
