@@ -41,4 +41,4 @@ The `jup` (**J**ava **Up**date) project aims to provide an easy, efficient and c
 
 
 ## Status
-The Microsoft Store has thoroughly solved the problem on Windows. The Mac App Store and brew cask work reasonably well on Mac. Snap works on Ubuntu, probably all the popular Linuxes, and maybe even BSD in the future. I recommend going with native package management instead of building update functionality into end-user software.
+The Microsoft Store has thoroughly solved the problem on Windows. The Mac App Store and brew cask work reasonably well on Mac. Snap works on Ubuntu, and probably all the popular Linuxes, and maybe even BSD in the future. I recommend going with native package management instead of building update functionality into end-user software.
